@@ -1,0 +1,822 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>PattoReadStories | Home</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="progress" id="progress"></div>
+      <nav class="nav">
+        <a class="brand" href="index.html">PattoReadStories</a>
+        <ul>
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="index.html#library">Library</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+        <button id="themeBtn" class="btn small" type="button">Dark mode</button>
+      </nav>
+    </header>
+    <main>
+      <section class="hero">
+        <h1>Every story, Every Chapter, Every Lesson learned.</h1>
+        <p>
+          Pick a genre, open a cover, and finish a story before your tea gets
+          cold.
+        </p>
+        <a class="btn" href="#library">Browse the library</a>
+      </section>
+      <section id="library" class="library">
+        <h2>Library</h2>
+        <div class="chips">
+          <button class="chip active" data-filter="all" type="button">
+            All</button
+          ><button class="chip" data-filter="Fantasy" type="button">
+            Fantasy</button
+          ><button class="chip" data-filter="Romance" type="button">
+            Romance</button
+          ><button class="chip" data-filter="Mystery" type="button">
+            Mystery</button
+          ><button class="chip" data-filter="Sci-Fi" type="button">
+            Sci-Fi</button
+          ><button class="chip" data-filter="Horror" type="button">
+            Horror</button
+          ><button class="chip" data-filter="Adventure" type="button">
+            Adventure</button
+          ><button class="chip" data-filter="Comedy" type="button">
+            Comedy</button
+          ><button class="chip" data-filter="Drama" type="button">Drama</button
+          ><button class="chip" data-filter="Historical" type="button">
+            Historical</button
+          ><button class="chip" data-filter="Thriller" type="button">
+            Thriller
+          </button>
+        </div>
+        <div class="grid">
+          <article class="card" data-genre="Fantasy">
+            <img
+              src="images/cover1.jpg"
+              alt="Cover of The Dragon&#x27;s Last Egg"
+            />
+            <div class="card-body">
+              <span class="badge">Fantasy</span>
+              <h3>The Dragon&#x27;s Last Egg</h3>
+              <p class="author">by Elara Voss</p>
+              <p class="syn" hidden>
+                A young shepherd finds the final dragon egg and must hide it
+                from a hungry kingdom.
+              </p>
+              <div class="actions">
+                <button class="btn small ghost toggle-syn" type="button">
+                  Show synopsis</button
+                ><button
+                  class="btn small ghost like"
+                  type="button"
+                  aria-pressed="false"
+                >
+                  &#9825; <span>0</span></button
+                ><a class="btn small" href="story1.html">Read Story</a>
+              </div>
+            </div>
+          </article>
+          <article class="card" data-genre="Fantasy">
+            <img
+              src="images/cover2.jpg"
+              alt="Cover of Crown of Thorn and Starlight"
+            />
+            <div class="card-body">
+              <span class="badge">Fantasy</span>
+              <h3>Crown of Thorn and Starlight</h3>
+              <p class="author">by Rowan Ashby</p>
+              <p class="syn" hidden>
+                A disgraced knight swears to guard a princess who can speak to
+                stars.
+              </p>
+              <div class="actions">
+                <button class="btn small ghost toggle-syn" type="button">
+                  Show synopsis</button
+                ><button
+                  class="btn small ghost like"
+                  type="button"
+                  aria-pressed="false"
+                >
+                  &#9825; <span>0</span></button
+                ><a class="btn small" href="story2.html">Read Story</a>
+              </div>
+            </div>
+          </article>
+          <article class="card" data-genre="Fantasy">
+            <img src="images/cover3.jpg" alt="Cover of The Moonwell Witch" />
+            <div class="card-body">
+              <span class="badge">Fantasy</span>
+              <h3>The Moonwell Witch</h3>
+              <p class="author">by SabineOrrel</p>
+              <p class="syn" hidden>
+                Every full moon, a village girl trades secrets with a witch at
+                the bottom of a well.
+              </p>
+              <div class="actions">
+                <button class="btn small ghost toggle-syn" type="button">
+                  Show synopsis</button
+                ><button
+                  class="btn small ghost like"
+                  type="button"
+                  aria-pressed="false"
+                >
+                  &#9825; <span>0</span></button
+                ><a class="btn small" href="story3.html">Read Story</a>
+              </div>
+            </div>
+          </article>
+          <article class="card" data-genre="Romance">
+            <img
+              src="images/cover4.jpg"
+              alt="Cover of Letters to a Lighthouse"
+            />
+            <div class="card-body">
+              <span class="badge">Romance</span>
+              <h3>Letters to a Lighthouse</h3>
+              <p class="author">by Daniela Quinn</p>
+              <p class="syn" hidden>
+                A lonely keeper begins answering letters that wash ashore in
+                glass bottles.
+              </p>
+              <div class="actions">
+                <button class="btn small ghost toggle-syn" type="button">
+                  Show synopsis</button
+                ><button
+                  class="btn small ghost like"
+                  type="button"
+                  aria-pressed="false"
+                >
+                  &#9825; <span>0</span></button
+                ><a class="btn small" href="story4.html">Read Story</a>
+              </div>
+            </div>
+          </article>
+          <article class="card" data-genre="Romance">
+            <img
+              src="images/cover5.jpg"
+              alt="Cover of Coffee at Platform Nine"
+            />
+            <div class="card-body">
+              <span class="badge">Romance</span>
+              <h3>Coffee at Platform Nine</h3>
+              <p class="author">by Mika Tan</p>
+              <p class="syn" hidden>
+                Two strangers keep missing the same train, and meeting at the
+                same cafe.
+              </p>
+              <div class="actions">
+                <button class="btn small ghost toggle-syn" type="button">
+                  Show synopsis</button
+                ><button
+                  class="btn small ghost like"
+                  type="button"
+                  aria-pressed="false"
+                >
+                  &#9825; <span>0</span></button
+                ><a class="btn small" href="story5.html">Read Story</a>
+              </div>
+            </div>
+          </article>
+          <article class="card" data-genre="Romance">
+            <img src="images/cover6.jpg" alt="Cover of Seventeen Summers" />
+            <div class="card-body">
+              <span class="badge">Romance</span>
+              <h3>Seventeen Summers</h3>
+              <p class="author">by Hana Rivera</p>
+              <p class="syn" hidden>
+                A girl returns to her grandmother&#x27;s island and to the boy
+                she never forgot.
+              </p>
+              <div class="actions">
+                <button class="btn small ghost toggle-syn" type="button">
+                  Show synopsis</button
+                ><button
+                  class="btn small ghost like"
+                  type="button"
+                  aria-pressed="false"
+                >
+                  &#9825; <span>0</span></button
+                ><a class="btn small" href="story6.html">Read Story</a>
+              </div>
+            </div>
+          </article>
+          <article class="card" data-genre="Mystery">
+            <img src="images/cover7.jpg" alt="Cover of The Silent Clocktower" />
+            <div class="card-body">
+              <span class="badge">Mystery</span>
+              <h3>The Silent Clocktower</h3>
+              <p class="author">by Victor Hale</p>
+              <p class="syn" hidden>
+                The town clock stops at 3:17 every night, and so does the heart
+                of a different resident.
+              </p>
+              <div class="actions">
+                <button class="btn small ghost toggle-syn" type="button">
+                  Show synopsis</button
+                ><button
+                  class="btn small ghost like"
+                  type="button"
+                  aria-pressed="false"
+                >
+                  &#9825; <span>0</span></button
+                ><a class="btn small" href="story7.html">Read Story</a>
+              </div>
+            </div>
+          </article>
+          <article class="card" data-genre="Mystery">
+            <img
+              src="images/cover8.jpg"
+              alt="Cover of Case of the Missing Violin"
+            />
+            <div class="card-body">
+              <span class="badge">Mystery</span>
+              <h3>Case of the Missing Violin</h3>
+              <p class="author">by Priya Nair</p>
+              <p class="syn" hidden>
+                A famous violin vanishes from a locked music room during a
+                school concert.
+              </p>
+              <div class="actions">
+                <button class="btn small ghost toggle-syn" type="button">
+                  Show synopsis</button
+                ><button
+                  class="btn small ghost like"
+                  type="button"
+                  aria-pressed="false"
+                >
+                  &#9825; <span>0</span></button
+                ><a class="btn small" href="story8.html">Read Story</a>
+              </div>
+            </div>
+          </article>
+          <article class="card" data-genre="Mystery">
+            <img src="images/cover9.jpg" alt="Cover of Echoes in the Library" />
+            <div class="card-body">
+              <span class="badge">Mystery</span>
+              <h3>Echoes in the Library</h3>
+              <p class="author">by Tobias Wren</p>
+              <p class="syn" hidden>
+                Whispers in a closed library lead a night guard to a century-old
+                secret.
+              </p>
+              <div class="actions">
+                <button class="btn small ghost toggle-syn" type="button">
+                  Show synopsis</button
+                ><button
+                  class="btn small ghost like"
+                  type="button"
+                  aria-pressed="false"
+                >
+                  &#9825; <span>0</span></button
+                ><a class="btn small" href="story9.html">Read Story</a>
+              </div>
+            </div>
+          </article>
+          <article class="card" data-genre="Sci-Fi">
+            <img src="images/cover10.jpg" alt="Cover of Project Aurora Seven" />
+            <div class="card-body">
+              <span class="badge">Sci-Fi</span>
+              <h3>Project Aurora Seven</h3>
+              <p class="author">by Kai Mendel</p>
+              <p class="syn" hidden>
+                A crew wakes from cryosleep to find their ship has traveled
+                forty years too far.
+              </p>
+              <div class="actions">
+                <button class="btn small ghost toggle-syn" type="button">
+                  Show synopsis</button
+                ><button
+                  class="btn small ghost like"
+                  type="button"
+                  aria-pressed="false"
+                >
+                  &#9825; <span>0</span></button
+                ><a class="btn small" href="story10.html">Read Story</a>
+              </div>
+            </div>
+          </article>
+          <article class="card" data-genre="Sci-Fi">
+            <img
+              src="images/cover11.jpg"
+              alt="Cover of The Last Garden on Mars"
+            />
+            <div class="card-body">
+              <span class="badge">Sci-Fi</span>
+              <h3>The Last Garden on Mars</h3>
+              <p class="author">by Noor Haddad</p>
+              <p class="syn" hidden>
+                A botanist protects the final seeds of Earth as the colony runs
+                out of air.
+              </p>
+              <div class="actions">
+                <button class="btn small ghost toggle-syn" type="button">
+                  Show synopsis</button
+                ><button
+                  class="btn small ghost like"
+                  type="button"
+                  aria-pressed="false"
+                >
+                  &#9825; <span>0</span></button
+                ><a class="btn small" href="story11.html">Read Story</a>
+              </div>
+            </div>
+          </article>
+          <article class="card" data-genre="Sci-Fi">
+            <img src="images/cover12.jpg" alt="Cover of Robot Named Pebble" />
+            <div class="card-body">
+              <span class="badge">Sci-Fi</span>
+              <h3>Robot Named Pebble</h3>
+              <p class="author">by Jonah Frost</p>
+              <p class="syn" hidden>
+                A junkyard robot learns what friendship means from a lost little
+                girl.
+              </p>
+              <div class="actions">
+                <button class="btn small ghost toggle-syn" type="button">
+                  Show synopsis</button
+                ><button
+                  class="btn small ghost like"
+                  type="button"
+                  aria-pressed="false"
+                >
+                  &#9825; <span>0</span></button
+                ><a class="btn small" href="story12.html">Read Story</a>
+              </div>
+            </div>
+          </article>
+          <article class="card" data-genre="Horror">
+            <img
+              src="images/cover13.jpg"
+              alt="Cover of The House at Dead Hollow"
+            />
+            <div class="card-body">
+              <span class="badge">Horror</span>
+              <h3>The House at Dead Hollow</h3>
+              <p class="author">by Morgan Blackwood</p>
+              <p class="syn" hidden>
+                A family inherits a house where the walls whisper their names at
+                night.
+              </p>
+              <div class="actions">
+                <button class="btn small ghost toggle-syn" type="button">
+                  Show synopsis</button
+                ><button
+                  class="btn small ghost like"
+                  type="button"
+                  aria-pressed="false"
+                >
+                  &#9825; <span>0</span></button
+                ><a class="btn small" href="story13.html">Read Story</a>
+              </div>
+            </div>
+          </article>
+          <article class="card" data-genre="Horror">
+            <img src="images/cover14.jpg" alt="Cover of Do Not Open Room 13" />
+            <div class="card-body">
+              <span class="badge">Horror</span>
+              <h3>Do Not Open Room 13</h3>
+              <p class="author">by Lydia Crane</p>
+              <p class="syn" hidden>
+                A hotel night clerk is told never to open Room 13, and the bell
+                rings from inside.
+              </p>
+              <div class="actions">
+                <button class="btn small ghost toggle-syn" type="button">
+                  Show synopsis</button
+                ><button
+                  class="btn small ghost like"
+                  type="button"
+                  aria-pressed="false"
+                >
+                  &#9825; <span>0</span></button
+                ><a class="btn small" href="story14.html">Read Story</a>
+              </div>
+            </div>
+          </article>
+          <article class="card" data-genre="Horror">
+            <img
+              src="images/cover15.jpg"
+              alt="Cover of The Scarecrow Remembers"
+            />
+            <div class="card-body">
+              <span class="badge">Horror</span>
+              <h3>The Scarecrow Remembers</h3>
+              <p class="author">by Elias Mourne</p>
+              <p class="syn" hidden>
+                On harvest night, a scarecrow climbs down from its pole to find
+                its killer.
+              </p>
+              <div class="actions">
+                <button class="btn small ghost toggle-syn" type="button">
+                  Show synopsis</button
+                ><button
+                  class="btn small ghost like"
+                  type="button"
+                  aria-pressed="false"
+                >
+                  &#9825; <span>0</span></button
+                ><a class="btn small" href="story15.html">Read Story</a>
+              </div>
+            </div>
+          </article>
+          <article class="card" data-genre="Adventure">
+            <img
+              src="images/cover16.jpg"
+              alt="Cover of Treasure of the Jade Reef"
+            />
+            <div class="card-body">
+              <span class="badge">Adventure</span>
+              <h3>Treasure of the Jade Reef</h3>
+              <p class="author">by Marco Delgado</p>
+              <p class="syn" hidden>
+                Two siblings follow their late father&#x27;s map to a sunken
+                pirate ship.
+              </p>
+              <div class="actions">
+                <button class="btn small ghost toggle-syn" type="button">
+                  Show synopsis</button
+                ><button
+                  class="btn small ghost like"
+                  type="button"
+                  aria-pressed="false"
+                >
+                  &#9825; <span>0</span></button
+                ><a class="btn small" href="story16.html">Read Story</a>
+              </div>
+            </div>
+          </article>
+          <article class="card" data-genre="Adventure">
+            <img
+              src="images/cover17.jpg"
+              alt="Cover of Across the Burning Desert"
+            />
+            <div class="card-body">
+              <span class="badge">Adventure</span>
+              <h3>Across the Burning Desert</h3>
+              <p class="author">by Amira Said</p>
+              <p class="syn" hidden>
+                A young courier crosses the Sahar with a sealed scroll and a
+                stubborn camel.
+              </p>
+              <div class="actions">
+                <button class="btn small ghost toggle-syn" type="button">
+                  Show synopsis</button
+                ><button
+                  class="btn small ghost like"
+                  type="button"
+                  aria-pressed="false"
+                >
+                  &#9825; <span>0</span></button
+                ><a class="btn small" href="story17.html">Read Story</a>
+              </div>
+            </div>
+          </article>
+          <article class="card" data-genre="Adventure">
+            <img
+              src="images/cover18.jpg"
+              alt="Cover of Summit of the Silver Peak"
+            />
+            <div class="card-body">
+              <span class="badge">Adventure</span>
+              <h3>Summit of the Silver Peak</h3>
+              <p class="author">by Henrik Larsen</p>
+              <p class="syn" hidden>
+                A mountain guide leads three strangers up a peak that has never
+                been climbed.
+              </p>
+              <div class="actions">
+                <button class="btn small ghost toggle-syn" type="button">
+                  Show synopsis</button
+                ><button
+                  class="btn small ghost like"
+                  type="button"
+                  aria-pressed="false"
+                >
+                  &#9825; <span>0</span></button
+                ><a class="btn small" href="story18.html">Read Story</a>
+              </div>
+            </div>
+          </article>
+          <article class="card" data-genre="Comedy">
+            <img
+              src="images/cover19.jpg"
+              alt="Cover of The Great Pancake Disaster"
+            />
+            <div class="card-body">
+              <span class="badge">Comedy</span>
+              <h3>The Great Pancake Disaster</h3>
+              <p class="author">by Penny Walsh</p>
+              <p class="syn" hidden>
+                A school bake-off goes wrong when the pancake batter starts
+                growing.
+              </p>
+              <div class="actions">
+                <button class="btn small ghost toggle-syn" type="button">
+                  Show synopsis</button
+                ><button
+                  class="btn small ghost like"
+                  type="button"
+                  aria-pressed="false"
+                >
+                  &#9825; <span>0</span></button
+                ><a class="btn small" href="story19.html">Read Story</a>
+              </div>
+            </div>
+          </article>
+          <article class="card" data-genre="Comedy">
+            <img
+              src="images/cover20.jpg"
+              alt="Cover of My Cat Runs for Mayor"
+            />
+            <div class="card-body">
+              <span class="badge">Comedy</span>
+              <h3>My Cat Runs for Mayor</h3>
+              <p class="author">by Felix Bright</p>
+              <p class="syn" hidden>
+                When the town&#x27;s mayor resigns, the only candidate on the
+                ballot is a very fat cat.
+              </p>
+              <div class="actions">
+                <button class="btn small ghost toggle-syn" type="button">
+                  Show synopsis</button
+                ><button
+                  class="btn small ghost like"
+                  type="button"
+                  aria-pressed="false"
+                >
+                  &#9825; <span>0</span></button
+                ><a class="btn small" href="story20.html">Read Story</a>
+              </div>
+            </div>
+          </article>
+          <article class="card" data-genre="Comedy">
+            <img
+              src="images/cover21.jpg"
+              alt="Cover of Grandpa&#x27;s Haunted Wi-Fi"
+            />
+            <div class="card-body">
+              <span class="badge">Comedy</span>
+              <h3>Grandpa&#x27;s Haunted Wi-Fi</h3>
+              <p class="author">by Lola Park</p>
+              <p class="syn" hidden>
+                Grandpa insists the router is haunted, and the family&#x27;s
+                phones start agreeing.
+              </p>
+              <div class="actions">
+                <button class="btn small ghost toggle-syn" type="button">
+                  Show synopsis</button
+                ><button
+                  class="btn small ghost like"
+                  type="button"
+                  aria-pressed="false"
+                >
+                  &#9825; <span>0</span></button
+                ><a class="btn small" href="story21.html">Read Story</a>
+              </div>
+            </div>
+          </article>
+          <article class="card" data-genre="Drama">
+            <img
+              src="images/cover22.jpg"
+              alt="Cover of The Violin in Room 4B"
+            />
+            <div class="card-body">
+              <span class="badge">Drama</span>
+              <h3>The Violin in Room 4B</h3>
+              <p class="author">by Anya Petrova</p>
+              <p class="syn" hidden>
+                A retired musician&#x27;s neighbor hears her playing and slowly
+                rebuilds her will to perform.
+              </p>
+              <div class="actions">
+                <button class="btn small ghost toggle-syn" type="button">
+                  Show synopsis</button
+                ><button
+                  class="btn small ghost like"
+                  type="button"
+                  aria-pressed="false"
+                >
+                  &#9825; <span>0</span></button
+                ><a class="btn small" href="story22.html">Read Story</a>
+              </div>
+            </div>
+          </article>
+          <article class="card" data-genre="Drama">
+            <img
+              src="images/cover23.jpg"
+              alt="Cover of What the River Carried"
+            />
+            <div class="card-body">
+              <span class="badge">Drama</span>
+              <h3>What the River Carried</h3>
+              <p class="author">by Samuel Okoye</p>
+              <p class="syn" hidden>
+                After a flood, three siblings find the things that tie them to
+                each other.
+              </p>
+              <div class="actions">
+                <button class="btn small ghost toggle-syn" type="button">
+                  Show synopsis</button
+                ><button
+                  class="btn small ghost like"
+                  type="button"
+                  aria-pressed="false"
+                >
+                  &#9825; <span>0</span></button
+                ><a class="btn small" href="story23.html">Read Story</a>
+              </div>
+            </div>
+          </article>
+          <article class="card" data-genre="Drama">
+            <img
+              src="images/cover24.jpg"
+              alt="Cover of Mother&#x27;s Recipe Book"
+            />
+            <div class="card-body">
+              <span class="badge">Drama</span>
+              <h3>Mother&#x27;s Recipe Book</h3>
+              <p class="author">by Carmen Dela Cruz</p>
+              <p class="syn" hidden>
+                A daughter cooks through her late mother&#x27;s notes and
+                rediscovers their family.
+              </p>
+              <div class="actions">
+                <button class="btn small ghost toggle-syn" type="button">
+                  Show synopsis</button
+                ><button
+                  class="btn small ghost like"
+                  type="button"
+                  aria-pressed="false"
+                >
+                  &#9825; <span>0</span></button
+                ><a class="btn small" href="story24.html">Read Story</a>
+              </div>
+            </div>
+          </article>
+          <article class="card" data-genre="Historical">
+            <img
+              src="images/cover25.jpg"
+              alt="Cover of The Scribe of Alexandria"
+            />
+            <div class="card-body">
+              <span class="badge">Historical</span>
+              <h3>The Scribe of Alexandria</h3>
+              <p class="author">by Theron Marsh</p>
+              <p class="syn" hidden>
+                A young scribe races to save scrolls before the great library
+                burns.
+              </p>
+              <div class="actions">
+                <button class="btn small ghost toggle-syn" type="button">
+                  Show synopsis</button
+                ><button
+                  class="btn small ghost like"
+                  type="button"
+                  aria-pressed="false"
+                >
+                  &#9825; <span>0</span></button
+                ><a class="btn small" href="story25.html">Read Story</a>
+              </div>
+            </div>
+          </article>
+          <article class="card" data-genre="Historical">
+            <img
+              src="images/cover26.jpg"
+              alt="Cover of Samurai of the Falling Petals"
+            />
+            <div class="card-body">
+              <span class="badge">Historical</span>
+              <h3>Samurai of the Falling Petals</h3>
+              <p class="author">by Kenji Aoki</p>
+              <p class="syn" hidden>
+                A masterless samurai protects a village during the last cherry
+                blossom spring.
+              </p>
+              <div class="actions">
+                <button class="btn small ghost toggle-syn" type="button">
+                  Show synopsis</button
+                ><button
+                  class="btn small ghost like"
+                  type="button"
+                  aria-pressed="false"
+                >
+                  &#9825; <span>0</span></button
+                ><a class="btn small" href="story26.html">Read Story</a>
+              </div>
+            </div>
+          </article>
+          <article class="card" data-genre="Historical">
+            <img
+              src="images/cover27.jpg"
+              alt="Cover of Letters from the Front"
+            />
+            <div class="card-body">
+              <span class="badge">Historical</span>
+              <h3>Letters from the Front</h3>
+              <p class="author">by Eleanor Whitby</p>
+              <p class="syn" hidden>
+                A nurse and a soldier exchange letters during the long winter of
+                1917.
+              </p>
+              <div class="actions">
+                <button class="btn small ghost toggle-syn" type="button">
+                  Show synopsis</button
+                ><button
+                  class="btn small ghost like"
+                  type="button"
+                  aria-pressed="false"
+                >
+                  &#9825; <span>0</span></button
+                ><a class="btn small" href="story27.html">Read Story</a>
+              </div>
+            </div>
+          </article>
+          <article class="card" data-genre="Thriller">
+            <img
+              src="images/cover28.jpg"
+              alt="Cover of The Man Who Knew Too Little"
+            />
+            <div class="card-body">
+              <span class="badge">Thriller</span>
+              <h3>The Man Who Knew Too Little</h3>
+              <p class="author">by Dmitri Vance</p>
+              <p class="syn" hidden>
+                An ordinary cashier is chased across the city for a phone call
+                he never made.
+              </p>
+              <div class="actions">
+                <button class="btn small ghost toggle-syn" type="button">
+                  Show synopsis</button
+                ><button
+                  class="btn small ghost like"
+                  type="button"
+                  aria-pressed="false"
+                >
+                  &#9825; <span>0</span></button
+                ><a class="btn small" href="story28.html">Read Story</a>
+              </div>
+            </div>
+          </article>
+          <article class="card" data-genre="Thriller">
+            <img src="images/cover29.jpg" alt="Cover of Zero Hour in Manila" />
+            <div class="card-body">
+              <span class="badge">Thriller</span>
+              <h3>Zero Hour in Manila</h3>
+              <p class="author">by Rico Santos</p>
+              <p class="syn" hidden>
+                A bomb squad rookie has sixty minutes to stop a plot that hides
+                in plain sight.
+              </p>
+              <div class="actions">
+                <button class="btn small ghost toggle-syn" type="button">
+                  Show synopsis</button
+                ><button
+                  class="btn small ghost like"
+                  type="button"
+                  aria-pressed="false"
+                >
+                  &#9825; <span>0</span></button
+                ><a class="btn small" href="story29.html">Read Story</a>
+              </div>
+            </div>
+          </article>
+          <article class="card" data-genre="Thriller">
+            <img src="images/cover30.jpg" alt="Cover of Shadow Protocol" />
+            <div class="card-body">
+              <span class="badge">Thriller</span>
+              <h3>Shadow Protocol</h3>
+              <p class="author">by Cassian Rook</p>
+              <p class="syn" hidden>
+                A cyber agent discovers her own name on a list of traitors she
+                never met.
+              </p>
+              <div class="actions">
+                <button class="btn small ghost toggle-syn" type="button">
+                  Show synopsis</button
+                ><button
+                  class="btn small ghost like"
+                  type="button"
+                  aria-pressed="false"
+                >
+                  &#9825; <span>0</span></button
+                ><a class="btn small" href="story30.html">Read Story</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <p>
+        PattoReadStories Storybook by Alforque Patrick M. | BSIT - 21008 | ITE 1
+        Project
+      </p>
+    </footer>
+    <script src="js/script.js"></script>
+  </body>
+</html>
